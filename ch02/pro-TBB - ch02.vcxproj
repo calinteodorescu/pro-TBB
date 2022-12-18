@@ -65,22 +65,71 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <NMakeOutput>pro-TBB - ch02.exe</NMakeOutput>
     <NMakePreprocessorDefinitions>_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <OutDir>D:\Build\$(SolutionName)\Bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>D:\Build\$(SolutionName)\Projects\$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
+    <PublicIncludeDirectories>D:\Git\oneTBB\include</PublicIncludeDirectories>
+    <NMakeIncludeSearchPath>D:\Git\oneTBB\include</NMakeIncludeSearchPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <NMakeOutput>pro-TBB - ch02.exe</NMakeOutput>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <OutDir>D:\Build\$(SolutionName)\Bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>D:\Build\$(SolutionName)\Projects\$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
+    <PublicIncludeDirectories>D:\Git\oneTBB\include</PublicIncludeDirectories>
+    <NMakeIncludeSearchPath>D:\Git\oneTBB\include</NMakeIncludeSearchPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <NMakeOutput>pro-TBB - ch02.exe</NMakeOutput>
     <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <OutDir>D:\Build\$(SolutionName)\Bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>D:\Build\$(SolutionName)\Projects\$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
+    <PublicIncludeDirectories>D:\Git\oneTBB\include</PublicIncludeDirectories>
+    <NMakeIncludeSearchPath>D:\Git\oneTBB\include</NMakeIncludeSearchPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <NMakeOutput>pro-TBB - ch02.exe</NMakeOutput>
     <NMakePreprocessorDefinitions>NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <OutDir>D:\Build\$(SolutionName)\Bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>D:\Build\$(SolutionName)\Projects\$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
+    <PublicIncludeDirectories>D:\Git\oneTBB\include</PublicIncludeDirectories>
+    <NMakeIncludeSearchPath>D:\Git\oneTBB\include</NMakeIncludeSearchPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fig_2_03.cpp" />
+    <ClCompile Include="fig_2_04.cpp" />
+    <ClCompile Include="fig_2_05.cpp" />
+    <ClCompile Include="fig_2_06.cpp" />
+    <ClCompile Include="fig_2_07.cpp" />
+    <ClCompile Include="fig_2_08.cpp" />
+    <ClCompile Include="fig_2_10.cpp" />
+    <ClCompile Include="fig_2_11.cpp" />
+    <ClCompile Include="fig_2_12.cpp" />
+    <ClCompile Include="fig_2_14.cpp" />
+    <ClCompile Include="fig_2_15.cpp" />
+    <ClCompile Include="fig_2_16.cpp" />
+    <ClCompile Include="fig_2_17.cpp" />
+    <ClCompile Include="fig_2_18.cpp" />
+    <ClCompile Include="fig_2_19.cpp" />
+    <ClCompile Include="fig_2_20.cpp" />
+    <ClCompile Include="fig_2_22.cpp" />
+    <ClCompile Include="fig_2_23.cpp" />
+    <ClCompile Include="fig_2_24.cpp" />
+    <ClCompile Include="fig_2_27.cpp" />
+    <ClCompile Include="fig_2_28.cpp" />
+    <ClCompile Include="fig_2_30.cpp" />
+    <ClCompile Include="lodepng.cpp" />
+    <ClCompile Include="sidebar_associativity.cpp" />
+    <ClCompile Include="sidebar_pfor_functor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lodepng.h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="Makefile.nmake" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
