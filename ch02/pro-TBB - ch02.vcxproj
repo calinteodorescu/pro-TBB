@@ -45,6 +45,8 @@
     <IntDir>D:\Build\$(SolutionName)\Projects\$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
     <PublicIncludeDirectories>D:\Git\oneTBB\include</PublicIncludeDirectories>
     <NMakeIncludeSearchPath>D:\Git\oneTBB\include</NMakeIncludeSearchPath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\Git\oneTBB\include\tbb</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\Git\oneTBB\include\tbb</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <NMakeOutput>pro-TBB - ch02.exe</NMakeOutput>
@@ -53,6 +55,8 @@
     <IntDir>D:\Build\$(SolutionName)\Projects\$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
     <PublicIncludeDirectories>D:\Git\oneTBB\include</PublicIncludeDirectories>
     <NMakeIncludeSearchPath>D:\Git\oneTBB\include</NMakeIncludeSearchPath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\Git\oneTBB\include\tbb</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\Git\oneTBB\include\tbb</ExternalIncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
