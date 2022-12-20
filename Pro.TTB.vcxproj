@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{bd1d82b0-d355-47f3-a8de-0261975612c6}</ProjectGuid>
+    <RootNamespace>ProTTB</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Pro.TBB</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>D:\Build\$(SolutionName)\Bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>D:\Build\$(SolutionName)\Projects\$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>D:\Build\$(SolutionName)\Bin\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>D:\Build\$(SolutionName)\Projects\$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Git\oneTBB\include;D:\Git\oneDPL\include\oneapi</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Git\oneTBB\include;D:\Git\oneDPL\include\oneapi</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_08_parallel_do.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_11_parallel_for.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_12_parallel_for2.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_15_parallel_for_each.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_17_parallel_invoke.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_21_parallel_pipeline.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_23_parallel_reduce.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_24_parallel_deterministic_reduce.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_27_parallel_scan.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_30_parallel_sort.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_33_pipeline.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_43_fg.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_48_fixed_pool.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_48_memory_pool.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_60_mutex.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_62_atomic.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_64_combinable.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_66_enumerable_thread_specific.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_68_flatten2d.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_69_tick_count.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_71_task_group.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_73_task_scheduler_init.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_78_exception_handling.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_81_parallel_STL.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\hw_tst.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_04.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_05.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_07.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_10.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_11.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_12.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\sidebar_functor.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\sidebar_lambda.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_03.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_04.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_05.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_06.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_07.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_08.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_10.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_11.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_12.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_14.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_15.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_16.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_17.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_18.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_19.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_20.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_22.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_23.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_24.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_27.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_28.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_30.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\lodepng.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\sidebar_associativity.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\sidebar_pfor_functor.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_03.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_05.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_06.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_10.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_12.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_14.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_16.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\lodepng.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_04.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_08.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_09.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_10.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_11.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_12.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_13.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_03.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_04.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_08.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_14.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_19.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_20.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_20_cacheAligned.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_22.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_23.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_24.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_25.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_26.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_27-bis.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_27.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_29.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_01.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_06.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_09_STL.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_10.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_11.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_12.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch07\fig_7_09.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch07\fig_7_15and16and17.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_04.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_06.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_08.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_11-bypass.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_11.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_15.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v0_DAG.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v1_addchild.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v2_feeder.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v3_blockstyle.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v4_recycle.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v5_locality.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v6_global.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_05.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_06.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_07.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_08.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_10.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_12.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_14.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_15.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_16.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_01.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_03.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_04.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_05.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_06.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_07.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_09.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_10.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_11.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_12.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch13\fig_13_01.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch13\fig_13_03.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch13\fig_13_05.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch14\fig_14_02.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch14\fig_14_03.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch14\fig_14_04.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_01.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_02.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_03.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_09.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_11.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_12.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\note_exceptions.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_04.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_06.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_09.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_11.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_14.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_16.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_17.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_19.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_20.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_21.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_22.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_23.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_24.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_25.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_26.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_01.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_02.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_03.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_04.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_05.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_08.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_09.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_10.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_11.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_12.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_13.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_15.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_16.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_17.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_19.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_21.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_22.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_23.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_26.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_27.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_28.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_30.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_31.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_33.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_03-alternative.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_03.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_04.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_11-CLheader.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_11-svm.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_11-svmCLheader.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_11.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_03.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_05.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_07.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_08.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_09.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_16-subbuffer.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_16.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_21.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_22.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_24.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_26.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_27.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch20\fig_20_05.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch20\fig_20_06.cpp" />
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch20\fig_20_10.cpp" />
+    <ClCompile Include="Pro.TTB.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Git\pro-TBB\README.md" />
+    <None Include="R:\O\Books &amp; Articles\Computer Science\C++\TBB\2019 - Pro Tbb - C++ Parallel Programming with Threading Building Blocks.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ch01\ch01.h" />
+    <ClInclude Include="ch02\lodepng.h" />
+    <ClInclude Include="ch02\utils.h" />
+    <ClInclude Include="ch03\lodepng.h" />
+    <ClInclude Include="ch10\utils.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

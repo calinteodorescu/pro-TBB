@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="%2a%2a%2a Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="%2a%2a Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\01 - Jumping Right In - Hello TBB">
+      <UniqueIdentifier>{ae074cd2-1a10-4734-bfb3-84a7dc45e4aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\02 - Generic Parallel Algorithms">
+      <UniqueIdentifier>{347259ec-0508-4be0-9ad3-831792761ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\03 -  Flow Graphs">
+      <UniqueIdentifier>{d44eb924-3cac-4b6e-8eee-459f2352e28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\04 - TBB and the Parallel Algorithms of the C++ Standard">
+      <UniqueIdentifier>{ae89a9a3-28db-496d-beda-67d66f8ca49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It">
+      <UniqueIdentifier>{993bc220-7737-436e-ae5a-c261dd6822ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\06 - Data Structures for Concurrency">
+      <UniqueIdentifier>{1ed95921-0f15-47aa-a8bc-9ebd0712e1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\07 -  Scalable Memory Allocation">
+      <UniqueIdentifier>{ce72daf7-70ec-4885-a942-72c1a7da8ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\08 - Mapping Parallel Patterns to TBB">
+      <UniqueIdentifier>{5f05aa8c-ac86-4b72-af00-3bd0e0a8a3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\09 -  The Pillars of Composability">
+      <UniqueIdentifier>{f6a8e5b4-5e38-4656-b041-1786a908c077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms">
+      <UniqueIdentifier>{80857991-7202-4f37-8e88-9dfa34f98607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\11 - Controlling the Number of Threads Used for Execution">
+      <UniqueIdentifier>{4eafaa0f-3784-48d3-8afd-04c896d744af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\12 - Using Work Isolation for Correctness and Performance">
+      <UniqueIdentifier>{0438686d-962d-43e8-acd9-a5d19a3e67d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\13 - Creating Thread-to-Core and Task-to-Thread Affinity">
+      <UniqueIdentifier>{b023567c-07dc-4283-9766-f472c188f00e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\14 - Using Task Priorities">
+      <UniqueIdentifier>{cf532ab3-0e4a-4341-a0bc-7662e5f83c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\15 - Cancellation and Exception Handling">
+      <UniqueIdentifier>{cdd9a68b-fef4-47c3-94dd-352ddd0fe870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism">
+      <UniqueIdentifier>{ec2ad287-b92e-47de-80a8-cfb01f5a5780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics">
+      <UniqueIdentifier>{476c7c97-2cc2-4eba-b069-1776fd9771e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\18 - Beef Up Flow Graphs with Async Nodes">
+      <UniqueIdentifier>{c5a9ae0b-fe75-4403-8ce1-2b443ce3be46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes">
+      <UniqueIdentifier>{88010281-2faf-4bfd-a5ff-2e9cd300753f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\20 - TBB on NUMA Architectures">
+      <UniqueIdentifier>{5ab1e142-24e7-4a8a-b03b-2cff3d77b0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%2a%2a%2a Source Files\21 - Appendix B - TBB Précis">
+      <UniqueIdentifier>{59ba0258-9649-4a25-bccb-5f5ef2b1527a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pro.TTB.cpp">
+      <Filter>%2a%2a%2a Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_04.cpp">
+      <Filter>%2a%2a%2a Source Files\01 - Jumping Right In - Hello TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_05.cpp">
+      <Filter>%2a%2a%2a Source Files\01 - Jumping Right In - Hello TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_07.cpp">
+      <Filter>%2a%2a%2a Source Files\01 - Jumping Right In - Hello TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_10.cpp">
+      <Filter>%2a%2a%2a Source Files\01 - Jumping Right In - Hello TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_11.cpp">
+      <Filter>%2a%2a%2a Source Files\01 - Jumping Right In - Hello TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\fig_1_12.cpp">
+      <Filter>%2a%2a%2a Source Files\01 - Jumping Right In - Hello TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\sidebar_functor.cpp">
+      <Filter>%2a%2a%2a Source Files\01 - Jumping Right In - Hello TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch01\sidebar_lambda.cpp">
+      <Filter>%2a%2a%2a Source Files\01 - Jumping Right In - Hello TBB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_03.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_04.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_05.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_06.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_07.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_08.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_10.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_11.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_12.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_14.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_15.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_16.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_17.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_18.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_19.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_20.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_22.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_23.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_24.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_27.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_28.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\fig_2_30.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\lodepng.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\sidebar_associativity.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch02\sidebar_pfor_functor.cpp">
+      <Filter>%2a%2a%2a Source Files\02 - Generic Parallel Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_03.cpp">
+      <Filter>%2a%2a%2a Source Files\03 -  Flow Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_05.cpp">
+      <Filter>%2a%2a%2a Source Files\03 -  Flow Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_06.cpp">
+      <Filter>%2a%2a%2a Source Files\03 -  Flow Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_10.cpp">
+      <Filter>%2a%2a%2a Source Files\03 -  Flow Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_12.cpp">
+      <Filter>%2a%2a%2a Source Files\03 -  Flow Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_14.cpp">
+      <Filter>%2a%2a%2a Source Files\03 -  Flow Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\fig_3_16.cpp">
+      <Filter>%2a%2a%2a Source Files\03 -  Flow Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch03\lodepng.cpp">
+      <Filter>%2a%2a%2a Source Files\03 -  Flow Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_04.cpp">
+      <Filter>%2a%2a%2a Source Files\04 - TBB and the Parallel Algorithms of the C++ Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_08.cpp">
+      <Filter>%2a%2a%2a Source Files\04 - TBB and the Parallel Algorithms of the C++ Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_09.cpp">
+      <Filter>%2a%2a%2a Source Files\04 - TBB and the Parallel Algorithms of the C++ Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_10.cpp">
+      <Filter>%2a%2a%2a Source Files\04 - TBB and the Parallel Algorithms of the C++ Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_11.cpp">
+      <Filter>%2a%2a%2a Source Files\04 - TBB and the Parallel Algorithms of the C++ Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_12.cpp">
+      <Filter>%2a%2a%2a Source Files\04 - TBB and the Parallel Algorithms of the C++ Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch04\fig_4_13.cpp">
+      <Filter>%2a%2a%2a Source Files\04 - TBB and the Parallel Algorithms of the C++ Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_03.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_04.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_08.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_14.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_19.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_20.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_20_cacheAligned.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_22.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_23.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_24.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_25.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_26.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_27-bis.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_27.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch05\fig_5_29.cpp">
+      <Filter>%2a%2a%2a Source Files\05 - Synchronization - Why and How to Avoid It</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_01.cpp">
+      <Filter>%2a%2a%2a Source Files\06 - Data Structures for Concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_06.cpp">
+      <Filter>%2a%2a%2a Source Files\06 - Data Structures for Concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_09_STL.cpp">
+      <Filter>%2a%2a%2a Source Files\06 - Data Structures for Concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_10.cpp">
+      <Filter>%2a%2a%2a Source Files\06 - Data Structures for Concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_11.cpp">
+      <Filter>%2a%2a%2a Source Files\06 - Data Structures for Concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch06\fig_6_12.cpp">
+      <Filter>%2a%2a%2a Source Files\06 - Data Structures for Concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch07\fig_7_09.cpp">
+      <Filter>%2a%2a%2a Source Files\07 -  Scalable Memory Allocation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch07\fig_7_15and16and17.cpp">
+      <Filter>%2a%2a%2a Source Files\07 -  Scalable Memory Allocation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_04.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_06.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_08.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_11-bypass.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_11.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\fig_10_15.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v0_DAG.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v1_addchild.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v2_feeder.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v3_blockstyle.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v4_recycle.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v5_locality.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch10\wavefront_v6_global.cpp">
+      <Filter>%2a%2a%2a Source Files\10 - Using Tasks to Create Your Own Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_05.cpp">
+      <Filter>%2a%2a%2a Source Files\11 - Controlling the Number of Threads Used for Execution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_06.cpp">
+      <Filter>%2a%2a%2a Source Files\11 - Controlling the Number of Threads Used for Execution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_07.cpp">
+      <Filter>%2a%2a%2a Source Files\11 - Controlling the Number of Threads Used for Execution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_08.cpp">
+      <Filter>%2a%2a%2a Source Files\11 - Controlling the Number of Threads Used for Execution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_10.cpp">
+      <Filter>%2a%2a%2a Source Files\11 - Controlling the Number of Threads Used for Execution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_12.cpp">
+      <Filter>%2a%2a%2a Source Files\11 - Controlling the Number of Threads Used for Execution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_14.cpp">
+      <Filter>%2a%2a%2a Source Files\11 - Controlling the Number of Threads Used for Execution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_15.cpp">
+      <Filter>%2a%2a%2a Source Files\11 - Controlling the Number of Threads Used for Execution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch11\fig_11_16.cpp">
+      <Filter>%2a%2a%2a Source Files\11 - Controlling the Number of Threads Used for Execution</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_01.cpp">
+      <Filter>%2a%2a%2a Source Files\12 - Using Work Isolation for Correctness and Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_03.cpp">
+      <Filter>%2a%2a%2a Source Files\12 - Using Work Isolation for Correctness and Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_04.cpp">
+      <Filter>%2a%2a%2a Source Files\12 - Using Work Isolation for Correctness and Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_05.cpp">
+      <Filter>%2a%2a%2a Source Files\12 - Using Work Isolation for Correctness and Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_06.cpp">
+      <Filter>%2a%2a%2a Source Files\12 - Using Work Isolation for Correctness and Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_07.cpp">
+      <Filter>%2a%2a%2a Source Files\12 - Using Work Isolation for Correctness and Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_09.cpp">
+      <Filter>%2a%2a%2a Source Files\12 - Using Work Isolation for Correctness and Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_10.cpp">
+      <Filter>%2a%2a%2a Source Files\12 - Using Work Isolation for Correctness and Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_11.cpp">
+      <Filter>%2a%2a%2a Source Files\12 - Using Work Isolation for Correctness and Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch12\fig_12_12.cpp">
+      <Filter>%2a%2a%2a Source Files\12 - Using Work Isolation for Correctness and Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch13\fig_13_01.cpp">
+      <Filter>%2a%2a%2a Source Files\13 - Creating Thread-to-Core and Task-to-Thread Affinity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch13\fig_13_03.cpp">
+      <Filter>%2a%2a%2a Source Files\13 - Creating Thread-to-Core and Task-to-Thread Affinity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch13\fig_13_05.cpp">
+      <Filter>%2a%2a%2a Source Files\13 - Creating Thread-to-Core and Task-to-Thread Affinity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch14\fig_14_02.cpp">
+      <Filter>%2a%2a%2a Source Files\14 - Using Task Priorities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch14\fig_14_03.cpp">
+      <Filter>%2a%2a%2a Source Files\14 - Using Task Priorities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch14\fig_14_04.cpp">
+      <Filter>%2a%2a%2a Source Files\14 - Using Task Priorities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_01.cpp">
+      <Filter>%2a%2a%2a Source Files\15 - Cancellation and Exception Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_02.cpp">
+      <Filter>%2a%2a%2a Source Files\15 - Cancellation and Exception Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_03.cpp">
+      <Filter>%2a%2a%2a Source Files\15 - Cancellation and Exception Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_09.cpp">
+      <Filter>%2a%2a%2a Source Files\15 - Cancellation and Exception Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_11.cpp">
+      <Filter>%2a%2a%2a Source Files\15 - Cancellation and Exception Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\fig_15_12.cpp">
+      <Filter>%2a%2a%2a Source Files\15 - Cancellation and Exception Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch15\note_exceptions.cpp">
+      <Filter>%2a%2a%2a Source Files\15 - Cancellation and Exception Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_04.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_06.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_09.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_11.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_14.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_16.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_17.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_19.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_20.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_21.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_22.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_23.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_24.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_25.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch16\fig_16_26.cpp">
+      <Filter>%2a%2a%2a Source Files\16 - Tuning TBB Algorithms - Granularity, Locality, Parallelism, and Determinism</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_01.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_02.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_03.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_04.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_05.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_08.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_09.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_10.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_11.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_12.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_13.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_15.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_16.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_17.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_19.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_21.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_22.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_23.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_26.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_27.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_28.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_30.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_31.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch17\fig_17_33.cpp">
+      <Filter>%2a%2a%2a Source Files\17 - Flow Graphs - Beyond the Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_03-alternative.cpp">
+      <Filter>%2a%2a%2a Source Files\18 - Beef Up Flow Graphs with Async Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_03.cpp">
+      <Filter>%2a%2a%2a Source Files\18 - Beef Up Flow Graphs with Async Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_04.cpp">
+      <Filter>%2a%2a%2a Source Files\18 - Beef Up Flow Graphs with Async Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_11-CLheader.cpp">
+      <Filter>%2a%2a%2a Source Files\18 - Beef Up Flow Graphs with Async Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_11-svm.cpp">
+      <Filter>%2a%2a%2a Source Files\18 - Beef Up Flow Graphs with Async Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_11-svmCLheader.cpp">
+      <Filter>%2a%2a%2a Source Files\18 - Beef Up Flow Graphs with Async Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch18\fig_18_11.cpp">
+      <Filter>%2a%2a%2a Source Files\18 - Beef Up Flow Graphs with Async Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_03.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_05.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_07.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_08.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_09.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_16-subbuffer.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_16.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_21.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_22.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_24.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_26.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch19\fig_19_27.cpp">
+      <Filter>%2a%2a%2a Source Files\19 - Flow Graphs on Steroids - OpenCL Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch20\fig_20_05.cpp">
+      <Filter>%2a%2a%2a Source Files\20 - TBB on NUMA Architectures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch20\fig_20_06.cpp">
+      <Filter>%2a%2a%2a Source Files\20 - TBB on NUMA Architectures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\ch20\fig_20_10.cpp">
+      <Filter>%2a%2a%2a Source Files\20 - TBB on NUMA Architectures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_08_parallel_do.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_11_parallel_for.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_12_parallel_for2.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_15_parallel_for_each.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_17_parallel_invoke.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_21_parallel_pipeline.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_23_parallel_reduce.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_24_parallel_deterministic_reduce.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_27_parallel_scan.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_30_parallel_sort.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_33_pipeline.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_43_fg.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_48_fixed_pool.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_48_memory_pool.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_60_mutex.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_62_atomic.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_64_combinable.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_66_enumerable_thread_specific.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_68_flatten2d.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_69_tick_count.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_71_task_group.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_73_task_scheduler_init.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_78_exception_handling.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\fig_B_81_parallel_STL.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Git\pro-TBB\AppB\hw_tst.cpp">
+      <Filter>%2a%2a%2a Source Files\21 - Appendix B - TBB Précis</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="R:\O\Books &amp; Articles\Computer Science\C++\TBB\2019 - Pro Tbb - C++ Parallel Programming with Threading Building Blocks.pdf">
+      <Filter>%2a%2a Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\Git\pro-TBB\README.md">
+      <Filter>%2a%2a Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ch10\utils.h">
+      <Filter>%2a%2a%2a Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch03\lodepng.h">
+      <Filter>%2a%2a%2a Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch02\utils.h">
+      <Filter>%2a%2a%2a Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch02\lodepng.h">
+      <Filter>%2a%2a%2a Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ch01\ch01.h">
+      <Filter>%2a%2a%2a Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
